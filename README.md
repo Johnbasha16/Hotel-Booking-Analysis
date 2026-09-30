@@ -1,81 +1,120 @@
-# Hotel Booking Analysis
+# 📊 Data Analysis & Machine Learning Projects
 
-## Project Overview
+This repository contains my practical projects in **Data Analysis, Data Science, and Machine Learning**, developed using Python and related tools.
 
-This project focuses on data cleaning and exploratory data analysis of a hotel booking dataset using Python.
+## 🚀 Projects
 
-The analysis explores booking patterns, cancellations, customer types, market segments, pricing, stay duration, and other important factors related to hotel bookings.
+### 1. 🏨 Hotel Booking Data Cleaning & Exploratory Data Analysis
 
-## Objectives
+A complete data cleaning and exploratory data analysis project using the Hotel Booking Demand dataset.
 
-- Clean and preprocess the hotel booking dataset
-- Handle missing values
-- Remove duplicate records
-- Convert data types appropriately
-- Detect and treat numerical outliers
-- Perform exploratory data analysis
-- Identify important trends and patterns
-- Export the cleaned dataset
+**Key Work:**
 
-## Technologies Used
+* Handled missing values
+* Removed duplicate records
+* Converted data types
+* Detected and treated numerical outliers using the IQR method
+* Performed exploratory data analysis
+* Created multiple visualizations
+* Analyzed booking cancellations, market segments, customer types, pricing, stay duration, and booking trends
+* Exported the cleaned dataset
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Google Colab
+**Technologies:**
+Python | Pandas | NumPy | Matplotlib | Seaborn | Google Colab
 
-## Dataset
+**Key Results:**
 
-The project uses an open-source Hotel Booking Demand dataset containing information about hotel reservations, customers, booking channels, cancellations, stay duration, and pricing.
+* Overall cancellation rate: approximately 13.55%
+* Average ADR: approximately 112.71
+* Average booking lead time: approximately 74 days
+* Average total stay duration: approximately 3 nights
 
-## Data Cleaning
+**Project Files:**
 
-The following preprocessing steps were performed:
+* `Hotel_Booking_Analysis.ipynb`
+* `hotel_bookings.csv`
+* `cleaned_hotel_booking.csv`
 
-- Handled missing values
-- Removed duplicate records
-- Converted date columns to datetime format
-- Detected outliers using the IQR method
-- Applied outlier capping to selected numerical columns
+---
 
-## Exploratory Data Analysis
+### 2. 🏠 House Price Prediction using Linear Regression
 
-The project analyzes:
+A machine learning project that predicts house sale prices using selected property features from the Kaggle House Prices dataset.
 
-- Hotel type distribution
-- Booking cancellation behavior
-- Market segment distribution
-- Customer types
-- Average Daily Rate (ADR)
-- Booking lead time
-- Stay duration
-- Correlation between numerical variables
-- Cancellation rates
-- Monthly booking trends
-- Distribution channels
-- New vs repeated guests
-- Meal preferences
-- Parking requirements
-- Arrival-day patterns
+**Features Used:**
 
-## Key Insights
+* OverallQual
+* GrLivArea
+* GarageCars
+* TotalBsmtSF
+* FullBath
+* YearBuilt
 
-- City Hotel received the highest number of bookings.
-- The overall cancellation rate was approximately 13.55%.
-- Groups had the highest cancellation rate among the analyzed market segments.
-- BB (Bed & Breakfast) was the most common meal type.
-- Transient was the most common customer type.
-- The average ADR was approximately 112.71.
-- The average booking lead time was approximately 74 days.
-- The average total stay duration was approximately 3 nights.
+**Key Work:**
 
-## Project Files
+* Loaded and explored the dataset
+* Selected relevant features
+* Checked missing values
+* Split data into training and testing sets
+* Built a Linear Regression model
+* Generated predictions
+* Evaluated model performance
+* Created Actual vs Predicted visualization
+* Performed residual analysis
+* Predicted the price of a new house
 
-- `Hotel_Booking_Analysis.ipynb` — Complete data cleaning and EDA notebook
-- `cleaned_hotel_booking.csv` — Cleaned dataset
+**Technologies:**
+Python | Pandas | NumPy | Matplotlib | Scikit-learn | Google Colab
 
-## Conclusion
+**Model Performance:**
 
-This project demonstrates practical skills in data cleaning, preprocessing, exploratory data analysis, and data visualization using Python and its major data analysis libraries.
+* MAE: approximately $25,319.86
+* MSE: approximately 1,576,962,754.88
+* R² Score: 0.7944
+
+The model explains approximately 79.44% of the variation in `SalePrice` on the test dataset.
+
+**Project File:**
+
+* `House_Price_Prediction_Linear_Regression.ipynb`
+
+---
+
+## 🛠️ Skills Demonstrated
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* Data Cleaning
+* Exploratory Data Analysis
+* Data Visualization
+* Feature Selection
+* Train-Test Split
+* Linear Regression
+* Model Evaluation
+* Residual Analysis
+
+## 📁 Repository Structure
+
+```text
+Data Analysis & Machine Learning Projects
+│
+├── Hotel_Booking_Analysis.ipynb
+├── House_Price_Prediction_Linear_Regression.ipynb
+├── hotel_bookings.csv
+├── cleaned_hotel_booking.csv
+└── README.md
+```
+
+## 🎯 Learning Objective
+
+These projects are part of my practical learning journey toward building strong skills in **Data Science, Machine Learning, Python, SQL, and AI**.
+
+## 📌 Internship
+
+The Hotel Booking Analysis project was completed as part of my internship at **Incode Vision**.
+
+#DataScience #MachineLearning #Python #Pandas #NumPy #ScikitLearn #DataAnalysis #EDA #LinearRegression
